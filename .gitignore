@@ -1,0 +1,22 @@
+# Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary & Build Directories
+scratch/
+slide_renders/
+tuning_results/
+*.zip
+*.tmp
+*.log
+extracted_syllabus.txt
+
+# Python Utility Scripts (Content-Only Repo)
+*.py
+day*/*.py
+day*/*/*.py
+
+# Loose Root Duplicates (Organized in day folders and COLAB_NOTEBOOKS)
+/Day_*.html
+/Day_*.ipynb
